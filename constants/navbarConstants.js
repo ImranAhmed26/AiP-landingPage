@@ -6,9 +6,9 @@ import {
   ViewGridIcon,
   PhoneIcon,
   PlayIcon,
-  SupportIcon,
-  BookmarkAltIcon,
-  CalendarIcon,
+  SearchCircleIcon,
+  DesktopComputerIcon,
+  BriefcaseIcon,
 } from '@heroicons/react/outline'
 
 export const solutions = [
@@ -55,28 +55,23 @@ export const resources = [
   {
     name: 'About Us',
     description:
-      'Get all of your questions answered in our forums or contact support.',
+      'Get to know us our history.',
     href: '#',
-    icon: SupportIcon,
+    icon: SearchCircleIcon,
   },
   {
-    name: 'Guides',
+    name: 'Products',
     description:
-      'Learn how to maximize our platform to get the most out of it.',
+      'View all our products.',
     href: '#',
-    icon: BookmarkAltIcon,
+    icon: DesktopComputerIcon,
   },
   {
-    name: 'Events',
+    name: 'Career',
     description:
-      'See what meet-ups and other events we might be planning near you.',
+      'Join our Family.',
     href: '#',
-    icon: CalendarIcon,
+    icon: BriefcaseIcon,
   },
-  {
-    name: 'Security',
-    description: 'Understand how we take your privacy seriously.',
-    href: '#',
-    icon: ShieldCheckIcon,
-  },
+
 ]
